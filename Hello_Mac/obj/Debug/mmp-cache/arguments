@@ -1,0 +1,20 @@
+# Version: 5.10.0.157 (d16-1): 6bd94753)
+# [first argument, ignore] # /Library/Frameworks/Xamarin.Mac.framework/Versions/5.10.0.157/lib/mmp/mmp.exe
+/Library/Frameworks/Xamarin.Mac.framework/Versions/5.10.0.157/lib/mmp/mmp.exe \
+	/verbose \
+	' /debug' \
+	/output:/Users/dylansmith/Developer/NET/Hello_Mac/Hello_Mac/bin/Debug/ \
+	/name:Hello_Mac \
+	' /profile:Xamarin.Mac,Version=v2.0,Profile=Mobile' \
+	' /arch:x86_64' \
+	' --http-message-handler=HttpClientHandler' \
+	' /minos=10.14' \
+	' /nolink' \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/mscorlib.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.Core.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/Xamarin.Mac.dll \
+	/root-assembly:/Users/dylansmith/Developer/NET/Hello_Mac/Hello_Mac/bin/Debug/Hello_Mac.exe \
+	/sdkroot:/Applications/Xcode.app/Contents/Developer \
+	--cache:/Users/dylansmith/Developer/NET/Hello_Mac/Hello_Mac/obj/Debug/mmp-cache \
+	@/Users/dylansmith/Developer/NET/Hello_Mac/Hello_Mac/obj/Debug/response-file.rsp \
